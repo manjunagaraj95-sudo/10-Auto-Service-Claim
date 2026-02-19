@@ -1072,7 +1072,7 @@ const Dashboard = ({ currentUserRole, navigate, claimsData, showToast }) => {
 
     return (
         <div className="main-content">
-            <h1 style={{ marginBottom: var('--spacing-md'), color: 'var(--primary-color)' }}>{currentUserRole} Dashboard</h1>
+            <h1 style={{ marginBottom: 'var(--spacing-md)', color: 'var(--primary-color)' }}>{currentUserRole} Dashboard</h1>
 
             {user.canViewDashboard ? (
                 <>

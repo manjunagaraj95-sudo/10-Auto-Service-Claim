@@ -1397,6 +1397,6 @@ const LoginScreen = ({ onLogin }) => {
             </div>
         </div>
     );
-};
+}
 
 export default App;
